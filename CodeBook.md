@@ -1,0 +1,14 @@
+Objects:-
+features_list
+activity
+subject_test
+x_test 
+y_test
+tidy_test
+subject_train
+x_train
+y_train
+y_train_label
+tidy_train
+tidy_mean_std
+tidy_avg
