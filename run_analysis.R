@@ -17,3 +17,9 @@ x_train <- read.table("train/X_train.txt", col.names = features_list$features)
 y_train <- read.table("train/Y_train.txt", col.names = "label")
 y_train_label <- left_join(y_train, activity, by = "label")
 
+
+
+tidy_train <- cbind(subject_train, y_train_label, x_train)
+tidy_train <- select(tidy_train, -label)
+
+
