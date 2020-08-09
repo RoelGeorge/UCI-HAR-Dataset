@@ -16,3 +16,4 @@ subject_train <- read.table("train/subject_train.txt", col.names = "subject")
 x_train <- read.table("train/X_train.txt", col.names = features_list$features)
 y_train <- read.table("train/Y_train.txt", col.names = "label")
 y_train_label <- left_join(y_train, activity, by = "label")
+
